@@ -6,6 +6,6 @@
 - css
 - html
 # visit Site❕
-[Click here!](https://github.com/AmeraRaed/Smart-Project/)
+[Click here!](https://ameraraed.github.io/Smart-Project/)
 #	📧  My Email
 amera.raed.2002@gmail.com
