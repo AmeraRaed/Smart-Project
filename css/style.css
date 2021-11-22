@@ -1,0 +1,991 @@
+@font-face {
+    font-family: Nunito;
+    src: url('../font/Nunito-Regular.ttf');
+}
+@font-face {
+    font-family: OpenSans;
+    src: url('../font/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: OpenSans;
+}
+a{
+    text-decoration: none;
+}
+h{
+    font-family: Nunito;
+    color: rgb(38, 36, 100);
+}
+
+.header{
+    width: 100%;
+    height: 65px;
+    background-color: #fff;
+    display: flex;
+}
+.nav-head{
+    width: 70%;
+    padding: 10px;
+    padding-left: 135px;
+}
+.mainnav{
+    
+}
+.navitem{
+    margin-right: 15px;
+    color: rgb(68, 67, 67);
+}
+.Login-btn{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    /* padding-left: 50px; */
+}
+.btn{
+    background-color: dodgerblue;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    width: 90px;
+    height: 36px;
+    font-size: 18px;
+    border: none;
+    margin-left: 13px;
+}
+.navitem:hover{
+    color:dodgerblue ;
+}
+.fa-cubes{
+    font-size: 30px;
+    color:dodgerblue ;
+}
+/* .fa-user-check{
+    width: 20px;
+    height: 20px;
+} */
+/* section1============================================================ */
+.section1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 650px;
+    background-color: rgb(243, 240, 252);
+}
+.heading{
+    width: 50%;
+    padding-top: 130px;
+    padding-left: 120px;
+}
+.heading h{
+    font-weight: bold;
+    font-size: 38px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.heading p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(80, 79, 79);
+}
+.img-head{
+    width: 50%;
+    background:rgb(243, 240, 252) url(../img/ui-design.png)  center center no-repeat ;
+    background-size: cover;
+}
+ .input-email{
+    width: 60%;
+    height: 50px;
+    cursor: pointer;
+    text-align: left;
+    outline: none;
+    margin-bottom: 30px;
+    padding: 15px;
+    padding-left:45px ;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 10px 1px rgb(136, 133, 133);
+}
+.input-btn{
+    width: 20%;
+    height: 50px;
+    background-color: rgb(238, 51, 51);
+    color: #fff;
+    margin-left: -7px;
+    margin-right: 100px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 10px 1px rgb(136, 133, 133);
+}
+.check-free{
+    margin-right: 30px;
+}
+.company-heading{
+    font-weight: bold;
+    font-size: 29px;
+    margin-right: 15px;
+}
+.img1{
+    width: 100%;
+    height: 300px;
+}
+.heading .fa-envelope{
+    position: relative;
+    top: -64px;
+    left: -363px;
+    color: rgb(136, 133, 133);
+}
+.heading .fa-check{
+/* margin-left: 0; */
+text-align: left;
+color: rgb(63, 182, 114);
+}
+.fa-comment-alt-dots{
+    background-color: aqua;
+}
+.fa-quote-right{
+    color: rgb(106, 190, 118);
+    margin-left: 7px;
+}
+/* section2============================================================ */
+.sec2{
+    background-color: #fff;
+    height: 545px;
+    padding: 100px;
+    text-align: center;
+    
+}
+.hight-heading-box1{
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgb(38, 36, 100);
+    
+}
+.box11{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box1{
+    width:30% ;
+    margin-right:2% ;
+    padding: 40px;
+    box-shadow: 2px 2px 10px 1px rgb(136, 133, 133);
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius:10px;
+    margin-top: 40px;
+    color: rgb(38, 36, 100);
+}
+/* .box11 .far{
+    width: 100px;
+    height: 60px;
+    margin: auto;
+    display: block;
+    background-color: green;
+} */
+.box1 span{
+    font-size: 40px;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+.heading-box1{
+margin-bottom:25px;
+}
+.par-box1{
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(63, 63, 82);
+}
+.fa-bullhorn{
+    color: rgb(63, 182, 114);
+}
+.fa-gem{
+    color: rgb(214, 32, 32);
+}
+.fa-palette{
+    color: dodgerblue;
+}
+/* section3============================================================ */
+.Video-speach{
+    display: flex;
+    justify-content: space-around;
+    height: 550px;
+    padding: 30px;
+    padding-top: 0;
+    background-color: rgb(243, 240, 252);
+}
+.Video{
+    width: 50%;
+    padding: 90px;
+    padding-right: 120px;
+    padding-left: 100px;
+    padding-bottom: 150px;
+}
+video{
+    width: 500px;
+    height: 370px;
+    box-shadow: 2px 2px 15px 4px rgb(196, 170, 170);
+    border-radius: 7px;
+
+}
+.speach{
+    width: 50%;
+    padding: 150px;
+    padding-right:0px;
+    padding-left: 10px;
+    
+
+}
+.par-icon{
+    display: flex;
+}
+.speach .fas{
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    
+}
+.speach .par{
+    width: 80%;
+    line-height: 1.5;
+    color: rgb(59, 58, 58);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.icon .fas{
+    margin-bottom: 4px;
+}
+.icon{
+    width: 20%;
+    margin: auto;
+    color: rgb(182, 182, 184);
+    text-align: center;
+}
+.icon .red{
+    color: red;
+}
+.end-par{
+font-weight: bold;
+}
+.end-par span{
+    color: red;
+}
+.end-par{
+    color: rgb(38, 36, 100);
+}
+/*section4============================================================ */
+.imges-head{
+    width: 100%;
+    height: 340px;
+    background-color: rgb(243, 240, 252);
+    text-align: center;
+}
+.imges-head h{
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    /* margin-bottom:100px; */
+    color: rgb(38, 36, 100);
+}
+.imgase-logo{
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: space-around; */
+    padding-left: 230px;
+    padding-right: 230px;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: center;
+}
+.imgase-logo img{
+    width: 110px;
+    height: 66px;
+    background-color: #fff;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 15px 4px rgb(196, 170, 170);
+    border-radius: 5px;
+    border: 1px solid #000;
+
+}
+/*section5============================================================ */
+.speach-img2{
+    width: 100%;
+    display: flex;
+    height: 618px;
+    background-color: #fff;
+    padding: 50px;
+}
+.speaches{
+    width: 50%;
+    padding-top: 130px;
+    padding-left: 120px;
+    /* background-color: rgb(238, 51, 51); */
+}
+.img2{
+    width: 50%;
+    background:#fff url(../img/digital-marketing.png)  center center no-repeat ;
+    background-size: cover;
+
+}
+.par1 .fas{
+    color: dodgerblue;
+}
+.speaches h{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(38, 36, 100);
+   
+}
+.speaches p{
+    font-size: 18px;
+    color: rgb(133, 131, 131);
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.par-check{
+    font-size: 18px;
+    color: rgb(133, 131, 131);
+    margin-bottom: 15px;
+}
+.speaches button{
+    margin-top: 20px;
+    background-color: dodgerblue; 
+    color: #fff;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    width: 118px;
+    height: 32px;
+}
+/*section6============================================================ */
+.icon-num{
+
+text-align: center;
+margin: auto;
+padding: 65px;
+width: 100%;
+height: 280px;
+background-color: rgb(243, 240, 252);
+}
+.icon-num h{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(38, 36, 100);
+    
+}
+.five-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.icon1{
+    width: 14%;
+    height: 120px;
+}
+.icon1 .fas{
+font-size: 35px;
+margin-bottom: 15px;
+}
+.num{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(38, 36, 100);
+    margin-bottom: 5px;
+}
+.name{
+    color: rgb(133, 131, 131);
+}
+.fa-gift{
+    color: rgb(58, 163, 224);
+    /* color: dodgerblue; */
+}
+.fa-heart{
+    color: rgb(247, 133, 99);
+}
+.fa-award{
+    color: rgb(61, 141, 96);
+}
+.fa-shopping-basket{
+    color: rgb(247, 133, 99);
+}
+.fa-bell{
+    color: rgb(247, 190, 35);
+}
+/*section7============================================================ */
+.boxes2{
+    height: 650px;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+.head-of-boxes{
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 50px;
+    color: rgb(38, 36, 100);
+}
+.three-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box1-3{
+    width: 30%;
+    height: 500px;
+    padding: 10px;
+    margin-top: 30px;
+    line-height: 1.15;
+}
+.img2-boxes{
+    width: 100%;
+    height: 60%;
+    margin-bottom: 20px;
+}
+.h-img2{
+    text-align: center;
+    color: rgb(38, 36, 100);
+    padding-left: 15px;
+    font-size: 20px;
+}
+.par1-img2{
+    text-align: center;
+    font-style: italic;
+    color: rgb(133, 131, 131);
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+.par2-img2{
+    text-align: center;
+    color: rgb(133, 131, 131);
+    padding-left: 15px;
+    font-size: 19px;
+
+}
+.Four-Icon{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* .box1-3 .Four-Icon .fab ,.fas ,.far{
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 8px;
+} */
+.Four-Icon .fa-twitter{
+    background-color: rgb(67, 193, 243);
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 8px;
+}
+.Four-Icon .fa-instagram{
+    background-color: rgb(182, 7, 7);
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 8px;
+}
+.Four-Icon .fa-microphone{
+    background-color:rgb(33, 50, 124) ;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 8px;
+}
+.Four-Icon .fa-envelope{
+    background-color: rgb(214, 11, 146);
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 8px;
+}
+/*section8=========================================================== */
+.head-par-star-choose{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(243, 240, 252);
+    padding: 80px;
+    padding-left: 120px;
+
+}
+.head-par-star{
+    width: 50%;
+    padding-top: 30px;
+}
+.head-par-star h{
+    font-weight: bold;
+    font-size: 28px;
+    color: rgb(38, 36, 100);
+    margin-bottom: 40px;
+}
+.head-par-star p{
+    color: rgb(133, 131, 131);
+    font-size: 24px;
+    line-height: 1.15;
+    margin-top: 30px;
+}
+.line{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    margin-top: 30px;
+}
+.linked{
+    width: 35%;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(38, 36, 100);
+}
+.linked p ,.upwork p{
+    margin-bottom: 15px;
+}
+.upwork{
+    width: 65%;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(38, 36, 100);
+    border-left: 1px solid rgb(133, 131, 131);
+    padding-left: 30px;
+}
+.line span{
+    width: 20px;
+    height: 20px;
+    color: rgb(224, 186, 12);
+    margin-right: 5px;
+}
+
+.choose{
+    width: 50%;
+    padding: 50px;
+}
+.lorm{
+    display: none;
+}
+.choose1{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    
+}
+.choose1 h{
+    font-size: 18px;
+    font-weight: bold;
+    /* display: inline; */
+    
+}
+.choose1 span{
+ font-size: 20px;
+text-align: right;
+}
+.fa-angle-down:hover .lorm{
+    display: block;
+   
+}
+.fa-angle-down:hover .choose1{
+    height: 120px;
+}
+/*section9=========================================================== */
+.boxes3{
+    height: 650px;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+.head-of-boxes3{
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 50px;
+    color: rgb(38, 36, 100);
+}
+.threes-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box1-1{
+    width: 30%;
+    height: 450px;
+    padding: 50px;
+    margin-top: 30px;
+    line-height: 1.5;
+    box-shadow: 2px 2px 10px 1px rgb(136, 133, 133);
+    margin-right: 2%;
+    border-radius: 5px;
+
+}
+.box1-1 h{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.box1-1 .num{
+    font-size: 50px;
+    font-weight: bold;
+}
+.box1-1 .time{
+    font-size: 19px;
+    font-weight:500;
+    margin-bottom: 20px;
+    color:rgb(92, 91, 91) ;
+}
+.true-par{
+    text-align: left;
+    padding-left: 20px;
+}
+.true-par .fa-check{
+    color: #fff;
+    background-color: dodgerblue;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 1px;
+    
+
+}
+.true-par .checks-par {
+    line-height: 1.5;
+    color: rgb(133, 131, 131);
+    font-size: 16px;
+}
+.box1-1 input{
+    width: 160px;
+    height: 40px;
+    border: 1px solid dodgerblue;
+    background-color: #fff;
+    border-radius: 5px;
+    color: dodgerblue;
+    margin: auto;
+    margin-left: 28px;
+}
+.Marg{
+    margin-bottom: 40px;
+}
+.box1-1 input:hover{
+    background-color:dodgerblue ;
+    color: #fff;
+}
+
+/*section10=========================================================== */
+.six-div1{
+    text-align: center;
+    height: 470px;
+    background-color: rgb(243, 240, 252);
+    padding: 80px;
+
+}
+.six-div2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    background-color: rgb(243, 240, 252);
+    padding: 40px;
+    text-align: left;
+
+}
+.sex-div-icon{
+    width: 30%;
+    margin-right: 3%;
+    display: flex;
+    height: 110px;
+}
+.heading-six-div{
+    font-weight: bold;
+    font-size: 28px;
+    color: rgb(38, 36, 100);
+    margin-bottom: 40px;
+}
+.icon6{
+    width: 20%;
+}
+.icon6 span{
+    font-size: 35px;
+}
+.icon6 .fa-gem{
+    color: rgb(4, 128, 0);
+}
+.icon6 .fa-user-friends{
+    color: dodgerblue;
+}
+.icon6 .fa-bell{
+    color: rgb(247, 133, 99);
+}
+.icon6 .fa-cog{
+    color: dodgerblue;
+}
+.icon6 .fa-money-bill{
+    color: rgb(247, 133, 99);
+}
+.icon6 .fa-comment-alt{
+    color: rgb(4, 128, 0);
+}
+.div1{
+    width: 80%;
+    /* line-height: 1.5; */
+    
+}
+.div1 h{
+    font-weight: 800;
+    font-size: 18px;
+    text-align: left;
+}
+.div1 p{
+margin-top: 15px;
+}
+/*section11============================================================ */
+.section2{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 0;
+}
+.heading2{
+    width: 50%;
+    padding-top: 230px;
+    padding-left: 120px;
+    text-align: center;
+}
+
+.heading2 .par-1{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(80, 79, 79);
+}
+.heading2 .par-2{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: rgb(38, 36, 100);
+    
+}
+.heading2 .par-3{
+    font-size: 18px;
+    color: dodgerblue;
+}
+
+.img-head2{
+    width: 50%;
+    background:rgb(243, 240, 252) url(../img/testimonials-woman.jpg)  center center no-repeat ;
+    background-size: cover;
+}
+
+/*section12============================================================ */
+.boxes4{
+    height: 670px;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(243, 240, 252);
+    text-align: center;
+}
+.head-of-boxes4{
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 50px;
+    color: rgb(38, 36, 100);
+    margin: auto;
+}
+.three-box4{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    
+    /* justify-content: center; */
+}
+.box1-4{
+    width: 30%;
+    height: 410px;
+    margin-top: 30px;
+    line-height: 1.15;
+    background-color: #fff;
+    margin-right: 3%;
+    margin: auto;
+    text-align: left;
+}
+.img-boxes4{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 20px;
+}
+.h-img4{
+    text-align: left;
+    color: rgb(38, 36, 100);
+    padding-left: 15px;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 20px;
+}
+.par1-img4{
+    
+    font-style: italic;
+    color: rgb(133, 131, 131);
+    margin-top: 13px;
+    padding-left: 15px;
+    display: inline;
+}
+.par2-img4{
+    
+    color: rgb(133, 131, 131);
+    padding-left: 15px;
+    font-size: 19px;
+    margin-top: 20px;
+}
+.box1-4 span{
+    margin-left: 10px;
+}
+
+
+
+/*section13============================================================ */
+.form-map{
+    display: flex;
+    height: 680px;
+    background-color: #fff;
+    padding: 70PX;
+
+}
+.form{
+    width: 50%;
+}
+.map{
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 57px;
+}
+.form h{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: rgb(38, 36, 100);
+}
+.form input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: rgb(243, 240, 252);
+    border-radius: 5px;
+    border: none;
+}
+.form .name2{
+    margin-top: 25px;
+}
+textarea{
+    width: 100%;
+    height: 195px;
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: rgb(243, 240, 252);
+    border-radius: 5px;
+    border: none;
+}
+.form button{
+    background-color: dodgerblue; 
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    width: 135px;
+    height: 40px;
+}
+.par1-map{
+    width: 100%;
+    height: 170px;
+    background-color: rgb(235, 232, 232);
+    border-radius: 5px;
+    padding: 15px;
+    height: 230px;
+    margin-bottom: 20px;
+}
+.icon-call{
+
+}
+.icon-call h{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(38, 36, 100);
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.icon-information .fas{
+    color: dodgerblue ;
+ 
+}
+.comm{
+    color: rgb(133, 131, 131);
+}
+.icon-information {
+    line-height: 2.5;
+}
+
+/* <!-- =======section14========= --> */
+footer{
+width: 100%;
+height: 40px;
+padding: 50px;
+padding-left: 100px;
+padding-right: 100px;
+background-color: rgb(243, 240, 252);
+display: flex;
+}
+footer p{
+    text-align: left;
+    width: 50%;
+    color: rgb(133, 131, 131);
+}
+footer p .ep{
+    color: dodgerblue;
+    text-decoration: underline;
+}
+.sm{
+    font-weight: bold;
+    color: #000;
+}
+.icon-footer{
+    width: 50%;
+    text-align: right;
+    margin-left: 180px;
+    color: rgb(133, 131, 131);
+}
+.icon-footer .fa-twitter{
+    color: dodgerblue ;
+ 
+}
+.icon-footer .fa-instagram{
+    color: rgb(4, 53, 102);
+}
+.icon-footer .fa-whatsapp{
+    color: rgb(17, 184, 11);
+}
+.icon-footer .fa-google{
+    color: dodgerblue;
+}
+.icon-footer .fa-github{
+    color: rgb(172, 7, 136);
+}
+
